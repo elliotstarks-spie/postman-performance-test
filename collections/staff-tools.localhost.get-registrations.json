@@ -1,0 +1,74 @@
+{
+  "info": {
+    "_postman_id": "a37944af-c276-47e9-8633-7eeace8a44fc",
+    "name": "Staff Tools",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27227583"
+  },
+  "item": [
+    {
+      "name": "Localhost GetRegistrations",
+      "request": {
+        "auth": {
+          "type": "apikey",
+          "apikey": [
+            {
+              "key": "value",
+              "value": "{{test_api_token}}",
+              "type": "string"
+            },
+            {
+              "key": "key",
+              "value": "X-API-Key",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"symposiumIds\": [\r\n        \"6974a5c6-c6cf-eb11-814d-f6dd0d35c0b3\"\r\n    ],\r\n    \"options\": {\r\n        \"resultPage\": 5,\r\n        \"maxResultsPerPage\": 10,\r\n        \"paginateResults\": true,\r\n        \"includeCount\": true,\r\n        \"sorting\": [],\r\n        \"columnFilters\": []\r\n    }\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:5130/api/registration/GetRegistrations",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5130",
+          "path": ["api", "registration", "GetRegistrations"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "test_api_token",
+      "value": "/lt1iTEN3LA1kmrjyIaP++NQUgj784bN0WH12gXf5E/hTarwBEJulcKHzCErgOKDxY6veJOA/SAAumfbLX16Pg==",
+      "type": "string"
+    }
+  ]
+}

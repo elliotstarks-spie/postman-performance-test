@@ -51,6 +51,7 @@ const stagger = program.opts().stagger;
 
 // #endregion
 
+let responseTimes = [];
 let executionCount = 0;
 
 console.log(
@@ -88,6 +89,9 @@ function initializeInterval(userNumber, staggerBy) {
 
 function stopExecution() {
   console.log(`\nExecution stopped after ${totalTime / 1000} seconds`);
+  console.log(
+    `Average response time: ${getAverageResponseTime(responseTimes)}ms`
+  );
   process.exit(0);
 }
 
@@ -100,12 +104,26 @@ function runCollection() {
       collection: require(file),
       reporters: "cli",
       insecure: true,
+      verbose: false,
+      reporter: {
+        cli: {
+          noSummary: true,
+        },
+      },
     },
-    function (err) {
-      if (err) {
-        throw err;
-      }
-      console.log(`\nCollection run complete (count: ${executionCount})`);
-    }
+    runCallback
   );
+}
+
+function runCallback(error, summary) {
+  if (error) {
+    throw error;
+  }
+
+  responseTimes.push(summary.run.timings.responseAverage);
+}
+
+function getAverageResponseTime(responseTimes) {
+  const totalResponseTime = responseTimes.reduce((a, b) => a + b);
+  return Math.round(totalResponseTime / responseTimes.length);
 }
