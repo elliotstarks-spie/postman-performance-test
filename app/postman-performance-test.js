@@ -7,6 +7,7 @@
  * @param interval Interval with which to run collection
  * @param total Total time to run before exiting
  * @param stagger Stagger users by a random time within @param interval (optional)
+ * @param report Display summaries of each run result (optional)
  */
 const { program, InvalidArgumentError } = require("commander");
 const newman = require("newman");
@@ -14,7 +15,7 @@ const newman = require("newman");
 // #region Arguments
 
 // Custom required integer parser for command line arguments
-function myParseInt(value, dummyPrevious) {
+function myParseInt(value) {
   const parsedValue = parseInt(value, 10);
   if (isNaN(parsedValue)) {
     throw new InvalidArgumentError("Not a number.");
@@ -39,7 +40,8 @@ program
     "-s --stagger",
     "Stagger users by a random amount within the interval",
     false
-  );
+  )
+  .option("-r --report", "Generate a JSON report", false);
 
 program.parse();
 
@@ -48,10 +50,11 @@ const users = program.opts().users;
 const interval = program.opts().interval * 1000;
 const totalTime = program.opts().total * 1000;
 const stagger = program.opts().stagger;
+const report = program.opts().report;
 
 // #endregion
 
-let responseTimes = [];
+let runs = new Map();
 let executionCount = 0;
 
 console.log(
@@ -60,7 +63,8 @@ console.log(
     Users: ${users}
     Interval: ${interval / 1000} seconds
     Length: ${totalTime / 1000} seconds
-    Stagger: ${stagger}`
+    Stagger: ${stagger}
+    Report: ${report}`
 );
 
 // Exit program after specified total time
@@ -89,27 +93,72 @@ function initializeInterval(userNumber, staggerBy) {
 
 function stopExecution() {
   console.log(`\nExecution stopped after ${totalTime / 1000} seconds`);
-  console.log(
-    `Average response time: ${getAverageResponseTime(responseTimes)}ms`
-  );
+
+  if (report) {
+    displayResults();
+  }
+
   process.exit(0);
+}
+
+function displayResults() {
+  console.log(`\n---------------------------------`);
+  console.log("Results");
+  console.log("---------------------------------");
+
+  for (const [name, summaries] of runs.entries()) {
+    console.log(`\n${name}`);
+    console.log("\nResponse times: ");
+    console.log(`  Average: ${getAverageResponseTime(summaries)}ms`);
+    console.log(`  Minimum: ${getMinimumResponseTime(summaries)}ms`);
+    console.log(`  Maximum: ${getMaximumResponseTime(summaries)}ms`);
+    console.log("\nResponse codes: ");
+    for (const [code, count] of getResponseCodeCounts(summaries).entries()) {
+      if (code === 200) {
+        console.log(`  ${code}: ${count} (success)`);
+      } else {
+        console.error(`  ${code}: ${count} (error)`);
+      }
+    }
+    console.log("---------------------------------");
+  }
 }
 
 function runCollection() {
   executionCount++;
   console.log(`\nRunning collection (count: ${executionCount})`);
 
+  // Set up reporter configuration
+  const reporters = ["cli"];
+
+  const reporterConfig = {
+    cli: {
+      noSummary: true,
+    },
+  };
+
+  // if (report) {
+  //   reporters.push("json");
+  //   const now = new Date();
+  //   const formattedDate = `${now.getMonth() + 1}${now.getDate()}${
+  //     now.getFullYear() - 2000
+  //   }${now.getHours()}${now.getMinutes()}${now.getSeconds()}`;
+  //   const fileName = `perf-report_${formattedDate}.json`;
+  //   const filePath = `./${fileName}`;
+  //   console.log(`\nGenerating report at ${filePath}`);
+
+  //   reporterConfig.json = {
+  //     export: filePath,
+  //   };
+  // }
+
   newman.run(
     {
       collection: require(file),
-      reporters: "cli",
+      reporters: reporters,
       insecure: true,
       verbose: false,
-      reporter: {
-        cli: {
-          noSummary: true,
-        },
-      },
+      reporter: reporterConfig,
     },
     runCallback
   );
@@ -120,10 +169,64 @@ function runCallback(error, summary) {
     throw error;
   }
 
-  responseTimes.push(summary.run.timings.responseAverage);
+  // Add each request's response summary
+  for (const run of summary.run.executions) {
+    const runSummary = {
+      name: run.item.name,
+      responseCode: run.response.code,
+      responseTime: run.response.responseTime,
+    };
+
+    addRunSummary(runSummary);
+  }
 }
 
-function getAverageResponseTime(responseTimes) {
-  const totalResponseTime = responseTimes.reduce((a, b) => a + b);
-  return Math.round(totalResponseTime / responseTimes.length);
+function addRunSummary(runSummary) {
+  if (runs.has(runSummary.name)) {
+    const currentRunSummary = runs.get(runSummary.name);
+    currentRunSummary.push({
+      responseCode: runSummary.responseCode,
+      responseTime: runSummary.responseTime,
+    });
+    runs.set(runSummary.name, currentRunSummary);
+  } else {
+    runs.set(runSummary.name, [
+      {
+        responseCode: runSummary.responseCode,
+        responseTime: runSummary.responseTime,
+      },
+    ]);
+  }
+}
+
+function getMinimumResponseTime(runSummaries) {
+  return Math.min(...runSummaries.map((run) => run.responseTime));
+}
+
+function getMaximumResponseTime(runSummaries) {
+  return Math.max(...runSummaries.map((run) => run.responseTime));
+}
+
+function getAverageResponseTime(runSummaries) {
+  const totalResponseTime = runSummaries.reduce(
+    (total, current) => total + current.responseTime,
+    0
+  );
+
+  return Math.round(totalResponseTime / runSummaries.length);
+}
+
+function getResponseCodeCounts(runSummaries) {
+  const responseCodeCounts = new Map();
+
+  for (const run of runSummaries) {
+    if (responseCodeCounts.has(run.responseCode)) {
+      const currentCount = responseCodeCounts.get(run.responseCode);
+      responseCodeCounts.set(run.responseCode, currentCount + 1);
+    } else {
+      responseCodeCounts.set(run.responseCode, 1);
+    }
+  }
+
+  return responseCodeCounts;
 }

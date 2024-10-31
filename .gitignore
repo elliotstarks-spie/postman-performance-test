@@ -245,3 +245,6 @@ publish/
 /srs-frontend/Utilities/SubmissionReviewUtilities.cs
 /srs-frontend/FrontendApi/SubmissionReview/RequiredReviewerCountData.cs
 /srs-frontend/*
+
+# Performance Test Collections
+/collections/*
