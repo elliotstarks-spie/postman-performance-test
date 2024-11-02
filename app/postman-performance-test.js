@@ -8,7 +8,9 @@
  * @param total Total time to run before exiting
  * @param stagger Stagger users by a random time within @param interval (optional)
  * @param report Display summaries of each run result (optional)
+ * @param data Optional data file to use with collection
  */
+
 const { program, InvalidArgumentError } = require("commander");
 const newman = require("newman");
 
@@ -41,7 +43,8 @@ program
     "Stagger users by a random amount within the interval",
     false
   )
-  .option("-r --report", "Generate a JSON report", false);
+  .option("-r --report", "Generate a JSON report", false)
+  .option("-d --data <string>", "Optional data file to use with collection");
 
 program.parse();
 
@@ -51,6 +54,20 @@ const interval = program.opts().interval * 1000;
 const totalTime = program.opts().total * 1000;
 const stagger = program.opts().stagger;
 const report = program.opts().report;
+const data = program.opts().data;
+
+// Load data file
+let requests = [];
+
+if (data) {
+  try {
+    const requestData = require(data);
+    requests = requestData.requests;
+  } catch (error) {
+    console.error(`Error loading data file: ${error.message}`);
+    process.exit(1);
+  }
+}
 
 // #endregion
 
@@ -64,7 +81,8 @@ console.log(
     Interval: ${interval / 1000} seconds
     Length: ${totalTime / 1000} seconds
     Stagger: ${stagger}
-    Report: ${report}`
+    Report: ${report}
+    Data: ${data}`
 );
 
 // Exit program after specified total time
@@ -87,8 +105,8 @@ function initializeInterval(userNumber, staggerBy) {
       staggerBy / 1000
     } seconds`
   );
-  runCollection();
-  setInterval(runCollection, interval);
+  runCollection(userNumber);
+  setInterval(() => runCollection(userNumber), interval);
 }
 
 function stopExecution() {
@@ -124,7 +142,7 @@ function displayResults() {
   }
 }
 
-function runCollection() {
+function runCollection(userNumber) {
   executionCount++;
   console.log(`\nRunning collection (count: ${executionCount})`);
 
@@ -137,6 +155,7 @@ function runCollection() {
     },
   };
 
+  // Code to report to JSON file, but not useful in current state
   // if (report) {
   //   reporters.push("json");
   //   const now = new Date();
@@ -152,12 +171,39 @@ function runCollection() {
   //   };
   // }
 
+  const envVarConfig = [];
+  const collection = require(file);
+
+  // Set up usage of data file to populate body for each request
+  if (data && requests.length > 0) {
+    collection.item.forEach((item, i) => {
+      const request = requests.find((request) => request.name === item.name);
+      if (request) {
+        const body = request.bodies[(userNumber - 1) % request.bodies.length];
+        envVarConfig.push({
+          key: `requestBody${i + 1}`,
+          value: JSON.stringify(body),
+        });
+
+        // Debug request
+        // console.log(
+        //   `\nRunning user ${userNumber} with ${JSON.stringify(
+        //     envVarConfig,
+        //     null,
+        //     2
+        //   )}`
+        // );
+      }
+    });
+  }
+
   newman.run(
     {
-      collection: require(file),
-      reporters: reporters,
+      collection: collection,
+      envVar: envVarConfig,
       insecure: true,
       verbose: false,
+      reporters: reporters,
       reporter: reporterConfig,
     },
     runCallback
@@ -176,6 +222,9 @@ function runCallback(error, summary) {
       responseCode: run.response.code,
       responseTime: run.response.responseTime,
     };
+
+    // Debug response
+    // console.log(run.response.text().toString());
 
     addRunSummary(runSummary);
   }

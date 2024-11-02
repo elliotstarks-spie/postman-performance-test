@@ -1,0 +1,439 @@
+{
+  "requests": [
+    {
+      "name": "IndividualGetExhibitor",
+      "bodies": [
+        {
+          "exhibitorId": "4a1452f6-5043-ef11-a9a2-005056914f1c"
+        },
+        {
+          "exhibitorId": "deded330-b14a-ef11-a9a2-00505691c5e1"
+        },
+        {
+          "exhibitorId": "91aacc09-23d7-ee11-a9a0-00505691c5e1"
+        },
+        {
+          "exhibitorId": "757ff869-96dc-ee11-a9a0-005056914f1c"
+        },
+        {
+          "exhibitorId": "93a22329-ebdc-ee11-a9a0-005056914f1c"
+        },
+        {
+          "exhibitorId": "1f208af7-9523-ef11-a9a1-005056914f1c"
+        },
+        {
+          "exhibitorId": "6c5e4e1c-cbea-ee11-a9a1-00505691c5e1"
+        },
+        {
+          "exhibitorId": "5d5b2558-dbdc-ee11-a9a0-00505691c5e1"
+        },
+        {
+          "exhibitorId": "30d0112c-f074-ef11-a9a2-00505691c5e1"
+        },
+        {
+          "exhibitorId": "1a141fa5-fed4-ee11-a9a0-005056914f1c"
+        }
+      ]
+    },
+    {
+      "name": "SaveRegistration",
+      "bodies": [
+        {
+          "registration": {
+            "registrationId": "17bccb90-1797-ef11-a99b-00505691970a",
+            "badgeNumber": "324248",
+            "registrationStatus": 1,
+            "firstName": "Heulbi",
+            "lastName": "Ahn",
+            "emailAddress": "ahn@meter-lab.com",
+            "badgeFirstName": "Heulbi",
+            "badgeLastName": "Ahn",
+            "badgeCompany": "Novitec Co., Ltd.",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "exhibitorId": "f73f0359-4cc8-ee11-a99f-005056914f1c",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {},
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "81558d64-3a97-ef11-a99b-00505691970a",
+            "badgeNumber": "331585",
+            "registrationStatus": 1,
+            "attendeeType": "ST",
+            "firstName": "GOKUL",
+            "lastName": "A",
+            "emailAddress": "gokula@iisc.ac.in",
+            "company": "Indian Institute of Science",
+            "badgeFirstName": "GOKUL",
+            "badgeLastName": "AGASTHILINGAM",
+            "badgeCompany": "INDIAN INSTITUTE OF SCIENCE",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 5026245,
+            "membershipStartDate": "2023-12-31T08:00:00",
+            "currentMembership": {
+              "membershipId": "861924c2-e5a7-ee11-a99d-c49c781f4d15",
+              "membershipType": "Student",
+              "membershipStartDate": "2023-12-31T08:00:00",
+              "membershipEndDate": "2024-12-30T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "861924c2-e5a7-ee11-a99d-c49c781f4d15",
+                "membershipType": "Student",
+                "membershipStartDate": "2023-12-31T08:00:00",
+                "membershipEndDate": "2024-12-30T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "94ad2a78-6e97-ef11-a99b-00505691970a",
+            "badgeNumber": "343483",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Mark",
+            "lastName": "A Bishop",
+            "emailAddress": "mbishop@fluxus.bio",
+            "company": "fluxus",
+            "badgeFirstName": "MARK",
+            "badgeLastName": "BISHOP",
+            "badgeCompany": "FLUXUS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5061357,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "bd2d305c-6097-ef11-a99b-00505691970a",
+            "badgeNumber": "340224",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Nayeem",
+            "lastName": "A.",
+            "emailAddress": "nayeem@deccanminerals.com",
+            "company": "Deccan Stones and Minerals",
+            "badgeFirstName": "NAYEEM",
+            "badgeLastName": "QURAISHI",
+            "badgeCompany": "DECCAN STONES AND MINERALS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5055029,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "af8a2634-1897-ef11-a99b-00505691970a",
+            "badgeNumber": "324383",
+            "registrationStatus": 1,
+            "attendeeType": "AU",
+            "firstName": "Sevag",
+            "lastName": "Abadian",
+            "emailAddress": "sevag.abadian@izm.fraunhofer.de",
+            "company": "Fraunhofer IZM",
+            "badgeFirstName": "SEVAG",
+            "badgeLastName": "ABADIAN",
+            "badgeCompany": "FRAUNHOFER IZM",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 4345141,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "377ccbde-5197-ef11-a99b-00505691970a",
+            "badgeNumber": "336793",
+            "registrationStatus": 1,
+            "attendeeType": "XR",
+            "firstName": "Timo",
+            "lastName": "Aalto",
+            "emailAddress": "timo.aalto@vtt.fi",
+            "company": "VTT Technical Research Ctr. of Finland Ltd.",
+            "badgeFirstName": "TIMO",
+            "badgeLastName": "AALTO",
+            "badgeCompany": "VTT",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 634747,
+            "exhibitorId": "6c8a9024-1f72-ef11-a9a2-005056914f1c",
+            "membershipStartDate": "2021-12-28T08:00:00",
+            "currentMembership": {
+              "membershipId": "042ac3bc-5eae-ee11-a99d-c49c781f4d15",
+              "membershipType": "Individual",
+              "membershipStartDate": "2024-01-08T08:00:00",
+              "membershipEndDate": "2025-01-07T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "bf416100-0d68-ec11-a98e-005056914f1c",
+                "membershipType": "Individual",
+                "membershipStartDate": "2021-12-28T08:00:00",
+                "membershipEndDate": "2022-12-27T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "5886c27d-7a8b-ed11-a995-005056914f1c",
+                "membershipType": "Individual",
+                "membershipStartDate": "2022-12-28T08:00:00",
+                "membershipEndDate": "2023-12-27T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "042ac3bc-5eae-ee11-a99d-c49c781f4d15",
+                "membershipType": "Individual",
+                "membershipStartDate": "2024-01-08T08:00:00",
+                "membershipEndDate": "2025-01-07T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "314570b1-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326731",
+            "registrationStatus": 1,
+            "attendeeType": "XR",
+            "firstName": "Joni",
+            "lastName": "Aaltonen",
+            "emailAddress": "joni.aaltonen@rosendahlnextrom.com",
+            "company": "Rosendahl Nextrom USA, Inc.",
+            "badgeFirstName": "JONI",
+            "badgeLastName": "AALTONEN",
+            "badgeCompany": "ROSENDAHL NEXTROM US",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5049197,
+            "exhibitorId": "3d3eb01d-90da-ee11-a9a0-00505691c5e1",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "781b0799-7297-ef11-a99b-00505691970a",
+            "badgeNumber": "344497",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Steinar",
+            "lastName": "Aandal-Vanger",
+            "emailAddress": "steinar@aandal-vanger.no",
+            "badgeFirstName": "STEINAR",
+            "badgeLastName": "AANDAL-VANGER",
+            "badgeCompany": "AANDAL-VANGER INVEST AS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4320522,
+            "membershipStartDate": "2024-02-20T08:00:00",
+            "currentMembership": {
+              "membershipId": "ba94fc74-e2cf-ee11-a9a0-00505691c5e1",
+              "membershipType": "Student",
+              "membershipStartDate": "2024-02-20T08:00:00",
+              "membershipEndDate": "2025-02-19T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "ba94fc74-e2cf-ee11-a9a0-00505691c5e1",
+                "membershipType": "Student",
+                "membershipStartDate": "2024-02-20T08:00:00",
+                "membershipEndDate": "2025-02-19T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "5e985741-6897-ef11-a99b-00505691970a",
+            "badgeNumber": "341917",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Ivo",
+            "lastName": "Aarninkhof",
+            "emailAddress": "ivo.aarninkhof@teledyne.com",
+            "company": "Teledyne Netherlands B.V.",
+            "badgeFirstName": "IVO",
+            "badgeLastName": "AARNINKHOF",
+            "badgeCompany": "TELEDYNE NETHERLANDS B.V.",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5057182,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "93c2deba-2997-ef11-a99b-00505691970a",
+            "badgeNumber": "328244",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Holly",
+            "lastName": "Aaron",
+            "emailAddress": "hollya@berkeley.edu",
+            "company": "Univ of California Berkeley",
+            "badgeFirstName": "HOLLY",
+            "badgeLastName": "AARON",
+            "badgeCompany": "UNIV OF CALIFORNIA BERKELEY",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 764596,
+            "membershipStartDate": "2019-11-15T08:00:00",
+            "memberships": [
+              {
+                "membershipId": "3b0aa70b-f407-ea11-813b-005056be78dc",
+                "membershipType": "Individual",
+                "membershipStartDate": "2019-11-15T08:00:00",
+                "membershipEndDate": "2020-11-14T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        }
+      ]
+    }
+  ]
+}
