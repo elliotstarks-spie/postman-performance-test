@@ -114,9 +114,9 @@ function stopExecution() {
 
   if (report) {
     displayResults();
+  } else {
+    process.exit(0);
   }
-
-  process.exit(0);
 }
 
 function displayResults() {
@@ -140,6 +140,8 @@ function displayResults() {
     }
     console.log("---------------------------------");
   }
+
+  process.exit(0);
 }
 
 function runCollection(userNumber) {
