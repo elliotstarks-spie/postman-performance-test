@@ -1,0 +1,664 @@
+{
+  "requests": [
+    {
+      "name": "IndividualGetRegistration",
+      "bodies": [
+        {
+          "registrationId": "46532a99-2297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "84713ca5-2297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "054570b1-2297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "104570b1-2297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "2c2c72b7-2297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "55c7bfd5-2297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "247b8cf8-6197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "2c7595fe-6197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "3f5e9704-6297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "c8d88f0a-6297-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        }
+      ]
+    },
+    {
+      "name": "GetBadgePdf",
+      "bodies": [
+        {
+          "registrationId": "46532a99-2297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "84713ca5-2297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "054570b1-2297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "104570b1-2297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "2c2c72b7-2297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "55c7bfd5-2297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "247b8cf8-6197-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "2c7595fe-6197-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "3f5e9704-6297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "c8d88f0a-6297-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        }
+      ]
+    },
+    {
+      "name": "SaveRegistration",
+      "bodies": [
+        {
+          "registration": {
+            "registrationId": "46532a99-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326712",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "David",
+            "lastName": "Thomas",
+            "emailAddress": "david.thomas@dovermotion.com",
+            "company": "Dover Motion",
+            "badgeFirstName": "David",
+            "badgeLastName": "Thomas",
+            "badgeCompany": "Dover Motion",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4038552,
+            "exhibitorId": "34e1e482-f5cf-ee11-a9a0-005056914f1c",
+            "membershipStartDate": "2017-01-19T08:00:00",
+            "currentMembership": {
+              "membershipId": "fd78d484-5cb5-ee11-a99d-c49c781f4d15",
+              "membershipType": "Individual",
+              "membershipStartDate": "2024-01-17T08:00:00",
+              "membershipEndDate": "2025-01-16T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "4c32b9dc-e991-ed11-a995-00505691c5e1",
+                "membershipType": "Individual",
+                "membershipStartDate": "2023-01-11T08:00:00",
+                "membershipEndDate": "2024-01-10T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "8ec14536-72de-e611-8115-005056be78dc",
+                "membershipType": "Individual",
+                "membershipStartDate": "2017-01-19T08:00:00",
+                "membershipEndDate": "2018-01-18T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "fd78d484-5cb5-ee11-a99d-c49c781f4d15",
+                "membershipType": "Individual",
+                "membershipStartDate": "2024-01-17T08:00:00",
+                "membershipEndDate": "2025-01-16T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [
+              {
+                "courseOfferingStudentId": "d6dfaf5f-9c97-ef11-a99b-00505691970a",
+                "courseCode": "SC1336",
+                "courseName": "Current Trends in Miniature Camera Technology from Visible to Infrared: Optimization for Performance, Size, and Cost",
+                "materialsPickedUp": false,
+                "dateRegistered": "10/31/2024",
+                "registeredAfterEventStart": false,
+                "course": {
+                  "courseOfferingId": "09b3f1dd-0e5c-ef11-a9a2-00505691c5e1",
+                  "courseCode": "SC1336",
+                  "title": "Current Trends in Miniature Camera Technology from Visible to Infrared: Optimization for Performance, Size, and Cost",
+                  "status": 2,
+                  "room": "Marriott Marquis, Sierra B (Level 5)",
+                  "instructors": [
+                    {
+                      "firstName": "Kevin",
+                      "lastName": "Matherson",
+                      "salutation": "Dr.",
+                      "fullName": "Dr. Kevin Matherson"
+                    },
+                    {
+                      "firstName": "David",
+                      "lastName": "Dorn",
+                      "salutation": "Mr.",
+                      "fullName": "Mr. David Dorn"
+                    }
+                  ],
+                  "seats": 39,
+                  "seatsRemaining": 0,
+                  "materials": 0,
+                  "materialsRemaining": 0,
+                  "registrationsCount": 0,
+                  "registrationsOnSiteCount": 0,
+                  "symposium": {},
+                  "registrations": [],
+                  "courseSessionDisplay": "1/27/2025 8:30 AM",
+                  "courseSessionDetailDisplay": "1/27/2025 8:30 AM - 5:30 PM",
+                  "session1Display": "Monday 8:30am to 5:30pm"
+                },
+                "isDirty": false
+              }
+            ],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:38:36.980Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "84713ca5-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326719",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Nathan",
+            "lastName": "Lin",
+            "emailAddress": "nlin@sunypoly.edu",
+            "company": "AIM Photonics",
+            "badgeFirstName": "Nathan",
+            "badgeLastName": "Lin",
+            "badgeCompany": "AIM Photonics",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5049181,
+            "exhibitorId": "b1ebb42c-eaea-ee11-a9a1-00505691c5e1",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:39:27.110Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "054570b1-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326728",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Peter",
+            "lastName": "Heim",
+            "emailAddress": "pheim@thorlabs.com",
+            "company": "Thorlabs, Inc.",
+            "badgeFirstName": "Peter",
+            "badgeLastName": "Heim",
+            "badgeCompany": "Thorlabs Quantum Electronics",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 124205,
+            "exhibitorId": "6422bc82-89dd-ee11-a9a0-005056914f1c",
+            "membershipStartDate": "2019-03-01T08:00:00",
+            "memberships": [
+              {
+                "membershipId": "54eac389-ac3c-e911-8135-005056be78dc",
+                "membershipType": "Individual",
+                "membershipStartDate": "2019-03-01T08:00:00",
+                "membershipEndDate": "2020-02-29T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:40:36.665Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "104570b1-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326729",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "sean",
+            "lastName": "mcelwee",
+            "emailAddress": "smcelwee@thorlabs.com",
+            "company": "Thorlabs, Inc.",
+            "badgeFirstName": "Sean",
+            "badgeLastName": "McElwee",
+            "badgeCompany": "Thorlabs Laser Division",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4467442,
+            "exhibitorId": "6422bc82-89dd-ee11-a9a0-005056914f1c",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:41:19.407Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "2c2c72b7-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326737",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Pauline",
+            "lastName": "Non",
+            "emailAddress": "pnon@thorlabs.com",
+            "company": "Thorlabs, Inc.",
+            "badgeFirstName": "Pauline",
+            "badgeLastName": "Non",
+            "badgeCompany": "Thorlabs Inc",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3417375,
+            "exhibitorId": "6422bc82-89dd-ee11-a9a0-005056914f1c",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:42:12.042Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "55c7bfd5-2297-ef11-a99b-00505691970a",
+            "badgeNumber": "326759",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Lukas",
+            "lastName": "Braun",
+            "emailAddress": "braun@becker-hickl.de",
+            "company": "Boston Electronics Corp.",
+            "badgeFirstName": "Lukas",
+            "badgeLastName": "Braun",
+            "badgeCompany": "Becker & Hickl GmbH",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4098999,
+            "exhibitorId": "3944f5a3-50dd-ee11-a9a0-005056914f1c",
+            "membershipStartDate": "2023-01-05T08:00:00",
+            "memberships": [
+              {
+                "membershipId": "c59c7c17-de8c-ed11-a995-005056914f1c",
+                "membershipType": "Individual",
+                "membershipStartDate": "2023-01-05T08:00:00",
+                "membershipEndDate": "2024-01-04T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:42:50.170Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "247b8cf8-6197-ef11-a99b-00505691970a",
+            "badgeNumber": "340570",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Steve",
+            "lastName": "Bennion",
+            "emailAddress": "sbennion@sierraoptics.com",
+            "company": "Sierra Precision Optics",
+            "badgeFirstName": "Stephen",
+            "badgeLastName": "Bennion",
+            "badgeCompany": "Sierra Precision Optics",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 685590,
+            "exhibitorId": "ca373717-1267-ef11-a9a2-005056914f1c",
+            "membershipStartDate": "2015-02-01T08:00:00",
+            "currentMembership": {
+              "membershipId": "9bc72e79-45ab-ee11-a99d-c49c781f4d15",
+              "membershipType": "Individual Corporate",
+              "membershipStartDate": "2024-02-01T08:00:00",
+              "membershipEndDate": "2025-01-31T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "76c91867-cc78-ec11-a98e-005056914f1c",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2022-02-01T08:00:00",
+                "membershipEndDate": "2023-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "402d031d-d986-ed11-a995-00505691c5e1",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2023-02-01T08:00:00",
+                "membershipEndDate": "2024-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "d398a7cb-dd4d-e611-810b-005056be4d05",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2015-02-01T08:00:00",
+                "membershipEndDate": "2016-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "e776157b-234e-e611-810b-005056be4d05",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2016-02-01T08:00:00",
+                "membershipEndDate": "2017-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "7c94dea7-0fdd-e611-8114-005056be4d05",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2017-02-01T08:00:00",
+                "membershipEndDate": "2018-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "59edba3b-1619-e911-8138-005056be4d05",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2019-02-01T08:00:00",
+                "membershipEndDate": "2020-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "b82578ee-00fb-e711-812a-005056be78dc",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2018-02-01T08:00:00",
+                "membershipEndDate": "2019-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "3220bdca-df3e-ea11-813f-005056be78dc",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2020-02-01T08:00:00",
+                "membershipEndDate": "2021-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "f01b09f3-e765-eb11-8148-005056be78dc",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2021-02-01T08:00:00",
+                "membershipEndDate": "2022-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "9bc72e79-45ab-ee11-a99d-c49c781f4d15",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2024-02-01T08:00:00",
+                "membershipEndDate": "2025-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:43:32.801Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "2c7595fe-6197-ef11-a99b-00505691970a",
+            "badgeNumber": "340578",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Naoshi",
+            "lastName": "Okamoto",
+            "emailAddress": "naoshiokamoto@seiwaamerica.com",
+            "company": "Seiwa Optical America Inc.",
+            "badgeFirstName": "Naoshi",
+            "badgeLastName": "Okamoto",
+            "badgeCompany": "Seiwa Optical America Inc.",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4089312,
+            "exhibitorId": "f00617f0-74c7-ee11-a99f-005056914f1c",
+            "membershipStartDate": "2024-02-01T08:00:00",
+            "currentMembership": {
+              "membershipId": "fe4b7d91-83c7-ee11-a99f-005056914f1c",
+              "membershipType": "Individual Corporate",
+              "membershipStartDate": "2024-02-01T08:00:00",
+              "membershipEndDate": "2025-01-31T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "fe4b7d91-83c7-ee11-a99f-005056914f1c",
+                "membershipType": "Individual Corporate",
+                "membershipStartDate": "2024-02-01T08:00:00",
+                "membershipEndDate": "2025-01-31T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:44:37.967Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "3f5e9704-6297-ef11-a99b-00505691970a",
+            "badgeNumber": "340579",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Alon",
+            "lastName": "Takashima",
+            "emailAddress": "takashima@seiwaamerica.com",
+            "company": "Seiwa Optical America Inc.",
+            "badgeFirstName": "Alon Nobuteru",
+            "badgeLastName": "Takashima",
+            "badgeCompany": "Seiwa Optical America Inc.",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3403617,
+            "exhibitorId": "f00617f0-74c7-ee11-a99f-005056914f1c",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:45:24.228Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "c8d88f0a-6297-ef11-a99b-00505691970a",
+            "badgeNumber": "340588",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Corine",
+            "lastName": "Cupillard",
+            "emailAddress": "ccupillard@lambdares.com",
+            "company": "Lambda Research Corp.",
+            "badgeFirstName": "Corine",
+            "badgeLastName": "Cupillard",
+            "badgeCompany": "Lambda Research Corp.",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3608272,
+            "exhibitorId": "2eef1e40-29d7-ee11-a9a0-00505691c5e1",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-05T17:45:54.947Z"
+          }
+        }
+      ]
+    }
+  ]
+}

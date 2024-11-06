@@ -186,17 +186,17 @@ function runCollection(userNumber) {
           key: `requestBody${i + 1}`,
           value: JSON.stringify(body),
         });
-
-        // Debug request
-        // console.log(
-        //   `\nRunning user ${userNumber} with ${JSON.stringify(
-        //     envVarConfig,
-        //     null,
-        //     2
-        //   )}`
-        // );
       }
     });
+
+    // Debug request
+    // console.log(
+    //   `\nRunning user ${userNumber} with ${JSON.stringify(
+    //     envVarConfig,
+    //     null,
+    //     2
+    //   )}`
+    // );
   }
 
   newman.run(

@@ -1,0 +1,1032 @@
+{
+  "requests": [
+    {
+      "name": "IndividualGetRegistration",
+      "bodies": [
+        {
+          "registrationId": "ac6108e7-4897-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "ebdd4927-3197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "d27e85de-2497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "6546563f-1d97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "d5521bb7-5497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "f2dddd83-5197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "513123a7-6497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "06064f45-6a97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "19b3a470-4c97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "5f133b1f-6097-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        }
+      ]
+    },
+    {
+      "name": "SaveRegistration",
+      "bodies": [
+        {
+          "registration": {
+            "registrationId": "ac6108e7-4897-ef11-a99b-00505691970a",
+            "badgeNumber": "334601",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "丞宇",
+            "lastName": "徐",
+            "emailAddress": "hsu20050523@gmail.com",
+            "badgeFirstName": ".",
+            "badgeLastName": "HSU",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5058339,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgeCompany": ""
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "ebdd4927-3197-ef11-a99b-00505691970a",
+            "badgeNumber": "329861",
+            "registrationStatus": 1,
+            "attendeeType": "ST",
+            "firstName": "Zuzana",
+            "lastName": "Adams",
+            "emailAddress": "zuziadams@proton.me",
+            "company": "Wyant College of Optical Sciences",
+            "badgeFirstName": "ZUZANA",
+            "badgeLastName": "ADAMS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 4281412,
+            "membershipStartDate": "2022-10-18T07:00:00",
+            "currentMembership": {
+              "membershipId": "49723064-178b-ef11-a9a2-005056914f1c",
+              "membershipType": "Student",
+              "membershipStartDate": "2024-10-18T07:00:00",
+              "membershipEndDate": "2025-10-17T07:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "8c877ee8-416d-ee11-a99c-005056914f1c",
+                "membershipType": "Student",
+                "membershipStartDate": "2023-10-18T07:00:00",
+                "membershipEndDate": "2024-10-17T07:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "49723064-178b-ef11-a9a2-005056914f1c",
+                "membershipType": "Student",
+                "membershipStartDate": "2024-10-18T07:00:00",
+                "membershipEndDate": "2025-10-17T07:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "34e57853-0f4f-ed11-a991-00505691c5e1",
+                "membershipType": "Student",
+                "membershipStartDate": "2022-10-18T07:00:00",
+                "membershipEndDate": "2023-10-17T07:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgeCompany": ""
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "d27e85de-2497-ef11-a99b-00505691970a",
+            "badgeNumber": "327165",
+            "registrationStatus": 1,
+            "attendeeType": "ST",
+            "firstName": "Zuyang",
+            "lastName": "Ye",
+            "emailAddress": "zye044@ucr.edu",
+            "company": "Univ. of California, Riverside",
+            "badgeFirstName": "ZUYANG",
+            "badgeLastName": "YE",
+            "badgeCompany": "UC RIVERSIDE",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 5029378,
+            "membershipStartDate": "2023-12-20T08:00:00",
+            "currentMembership": {
+              "membershipId": "0f9e0af9-c09f-ee11-a99c-005056914f1c",
+              "membershipType": "Student",
+              "membershipStartDate": "2023-12-20T08:00:00",
+              "membershipEndDate": "2024-12-19T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "0f9e0af9-c09f-ee11-a99c-005056914f1c",
+                "membershipType": "Student",
+                "membershipStartDate": "2023-12-20T08:00:00",
+                "membershipEndDate": "2024-12-19T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "6546563f-1d97-ef11-a99b-00505691970a",
+            "badgeNumber": "325535",
+            "registrationStatus": 1,
+            "attendeeType": "XR",
+            "firstName": "Zuwei",
+            "lastName": "Xu",
+            "emailAddress": "xu-zw@novel-trading.com",
+            "company": "Ningbo Yongxin Optics Co., Ltd.",
+            "badgeFirstName": "ZUWEI",
+            "badgeLastName": "XU",
+            "badgeCompany": "NINGBO YONGXIN OPTICS CO.LTD",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3637276,
+            "exhibitorId": "e12e15e3-dfe6-ee11-a9a1-005056914f1c",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "d5521bb7-5497-ef11-a99b-00505691970a",
+            "badgeNumber": "337542",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Zuoqian",
+            "lastName": "Wang",
+            "emailAddress": "wangjoaking@gmail.com",
+            "badgeFirstName": "ZUOQIAN",
+            "badgeLastName": "WANG",
+            "badgeCompany": "META",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3594235,
+            "membershipStartDate": "2023-01-19T08:00:00",
+            "currentMembership": {
+              "membershipId": "f0dac99b-60c0-ee11-a99d-c49c781f4d15",
+              "membershipType": "Individual",
+              "membershipStartDate": "2024-01-31T08:00:00",
+              "membershipEndDate": "2025-01-30T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "c81e72c9-9198-ed11-a995-005056914f1c",
+                "membershipType": "Individual",
+                "membershipStartDate": "2023-01-19T08:00:00",
+                "membershipEndDate": "2024-01-18T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "f0dac99b-60c0-ee11-a99d-c49c781f4d15",
+                "membershipType": "Individual",
+                "membershipStartDate": "2024-01-31T08:00:00",
+                "membershipEndDate": "2025-01-30T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "f2dddd83-5197-ef11-a99b-00505691970a",
+            "badgeNumber": "336705",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Zuo",
+            "lastName": "Wang",
+            "emailAddress": "zuowang123@yahoo.com",
+            "company": "EV Photonics",
+            "badgeFirstName": "ZUO",
+            "badgeLastName": "WANG",
+            "badgeCompany": "EV PHOTONICS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": true,
+            "orderPaidInFull": true,
+            "spieId": 3552019,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "513123a7-6497-ef11-a99b-00505691970a",
+            "badgeNumber": "341173",
+            "registrationStatus": 1,
+            "attendeeType": "AT",
+            "firstName": "Zu-Kai",
+            "lastName": "Weng",
+            "emailAddress": "zukaiweng@nict.go.jp",
+            "company": "NICT",
+            "badgeFirstName": "ZU-KAI",
+            "badgeLastName": "WENG",
+            "badgeCompany": "NICT",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 5055998,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "06064f45-6a97-ef11-a99b-00505691970a",
+            "badgeNumber": "342424",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Zufeng",
+            "lastName": "Wang",
+            "emailAddress": "yuwangboston@gmail.com",
+            "company": "YunNan Evergreen Technology",
+            "badgeFirstName": "ZUFENG",
+            "badgeLastName": "WANG",
+            "badgeCompany": "YUNNAN EVERGREEN TECHNOLOGY",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4463900,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "19b3a470-4c97-ef11-a99b-00505691970a",
+            "badgeNumber": "335473",
+            "registrationStatus": 1,
+            "attendeeType": "XR",
+            "firstName": "Zorina",
+            "lastName": "Mercado",
+            "emailAddress": "zorina.mercado@ams-osram.com",
+            "company": "ams-OSRAM AG",
+            "badgeFirstName": "ZORINA",
+            "badgeLastName": "MERCADO",
+            "badgeCompany": "AMS OSRAM",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5058259,
+            "exhibitorId": "faa8f87a-30db-ee11-a9a0-00505691c5e1",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "5f133b1f-6097-ef11-a99b-00505691970a",
+            "badgeNumber": "340181",
+            "registrationStatus": 1,
+            "attendeeType": "XO",
+            "firstName": "Zoran",
+            "lastName": "Milanovic",
+            "emailAddress": "zmanmil@aol.com",
+            "company": "Atia Vision Inc",
+            "badgeFirstName": "ZORAN",
+            "badgeLastName": "MILANOVIC",
+            "badgeCompany": "ATIA VISION INC",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 180995,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "IndividualGetRegistration2",
+      "bodies": [
+        {
+          "registrationId": "ac6108e7-4897-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "ebdd4927-3197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "d27e85de-2497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "6546563f-1d97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "d5521bb7-5497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "f2dddd83-5197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "513123a7-6497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "06064f45-6a97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "19b3a470-4c97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "5f133b1f-6097-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        }
+      ]
+    },
+    {
+      "name": "GetBadgePdf",
+      "bodies": [
+        {
+          "registrationId": "ac6108e7-4897-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "ebdd4927-3197-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "d27e85de-2497-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "6546563f-1d97-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "d5521bb7-5497-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "f2dddd83-5197-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "513123a7-6497-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "06064f45-6a97-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "19b3a470-4c97-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        },
+        {
+          "registrationId": "5f133b1f-6097-ef11-a99b-00505691970a",
+          "printerSettings": {
+            "ipAddress": "172.16.17.253",
+            "port": 9100
+          }
+        }
+      ]
+    },
+    {
+      "name": "SaveRegistration2",
+      "bodies": [
+        {
+          "registration": {
+            "registrationId": "ac6108e7-4897-ef11-a99b-00505691970a",
+            "badgeNumber": "334601",
+            "registrationStatus": 3,
+            "attendeeType": "XO",
+            "firstName": "丞宇",
+            "lastName": "徐",
+            "emailAddress": "hsu20050523@gmail.com",
+            "badgeFirstName": ".",
+            "badgeLastName": "HSU",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5058339,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgeCompany": "",
+            "badgePrintedDate": "2024-11-06T17:27:05.022Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "ebdd4927-3197-ef11-a99b-00505691970a",
+            "badgeNumber": "329861",
+            "registrationStatus": 3,
+            "attendeeType": "ST",
+            "firstName": "Zuzana",
+            "lastName": "Adams",
+            "emailAddress": "zuziadams@proton.me",
+            "company": "Wyant College of Optical Sciences",
+            "badgeFirstName": "ZUZANA",
+            "badgeLastName": "ADAMS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 4281412,
+            "membershipStartDate": "2022-10-18T07:00:00",
+            "currentMembership": {
+              "membershipId": "49723064-178b-ef11-a9a2-005056914f1c",
+              "membershipType": "Student",
+              "membershipStartDate": "2024-10-18T07:00:00",
+              "membershipEndDate": "2025-10-17T07:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "8c877ee8-416d-ee11-a99c-005056914f1c",
+                "membershipType": "Student",
+                "membershipStartDate": "2023-10-18T07:00:00",
+                "membershipEndDate": "2024-10-17T07:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "49723064-178b-ef11-a9a2-005056914f1c",
+                "membershipType": "Student",
+                "membershipStartDate": "2024-10-18T07:00:00",
+                "membershipEndDate": "2025-10-17T07:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "34e57853-0f4f-ed11-a991-00505691c5e1",
+                "membershipType": "Student",
+                "membershipStartDate": "2022-10-18T07:00:00",
+                "membershipEndDate": "2023-10-17T07:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgeCompany": "",
+            "badgePrintedDate": "2024-11-06T17:28:50.197Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "d27e85de-2497-ef11-a99b-00505691970a",
+            "badgeNumber": "327165",
+            "registrationStatus": 3,
+            "attendeeType": "ST",
+            "firstName": "Zuyang",
+            "lastName": "Ye",
+            "emailAddress": "zye044@ucr.edu",
+            "company": "Univ. of California, Riverside",
+            "badgeFirstName": "ZUYANG",
+            "badgeLastName": "YE",
+            "badgeCompany": "UC RIVERSIDE",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 5029378,
+            "membershipStartDate": "2023-12-20T08:00:00",
+            "currentMembership": {
+              "membershipId": "0f9e0af9-c09f-ee11-a99c-005056914f1c",
+              "membershipType": "Student",
+              "membershipStartDate": "2023-12-20T08:00:00",
+              "membershipEndDate": "2024-12-19T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "0f9e0af9-c09f-ee11-a99c-005056914f1c",
+                "membershipType": "Student",
+                "membershipStartDate": "2023-12-20T08:00:00",
+                "membershipEndDate": "2024-12-19T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:45:29.066Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "6546563f-1d97-ef11-a99b-00505691970a",
+            "badgeNumber": "325535",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Zuwei",
+            "lastName": "Xu",
+            "emailAddress": "xu-zw@novel-trading.com",
+            "company": "Ningbo Yongxin Optics Co., Ltd.",
+            "badgeFirstName": "ZUWEI",
+            "badgeLastName": "XU",
+            "badgeCompany": "NINGBO YONGXIN OPTICS CO.LTD",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": true,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3637276,
+            "exhibitorId": "e12e15e3-dfe6-ee11-a9a1-005056914f1c",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:46:40.250Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "d5521bb7-5497-ef11-a99b-00505691970a",
+            "badgeNumber": "337542",
+            "registrationStatus": 3,
+            "attendeeType": "XO",
+            "firstName": "Zuoqian",
+            "lastName": "Wang",
+            "emailAddress": "wangjoaking@gmail.com",
+            "badgeFirstName": "ZUOQIAN",
+            "badgeLastName": "WANG",
+            "badgeCompany": "META",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 3594235,
+            "membershipStartDate": "2023-01-19T08:00:00",
+            "currentMembership": {
+              "membershipId": "f0dac99b-60c0-ee11-a99d-c49c781f4d15",
+              "membershipType": "Individual",
+              "membershipStartDate": "2024-01-31T08:00:00",
+              "membershipEndDate": "2025-01-30T08:00:00",
+              "confirmationLevel": 100000002
+            },
+            "memberships": [
+              {
+                "membershipId": "c81e72c9-9198-ed11-a995-005056914f1c",
+                "membershipType": "Individual",
+                "membershipStartDate": "2023-01-19T08:00:00",
+                "membershipEndDate": "2024-01-18T08:00:00",
+                "confirmationLevel": 100000002
+              },
+              {
+                "membershipId": "f0dac99b-60c0-ee11-a99d-c49c781f4d15",
+                "membershipType": "Individual",
+                "membershipStartDate": "2024-01-31T08:00:00",
+                "membershipEndDate": "2025-01-30T08:00:00",
+                "confirmationLevel": 100000002
+              }
+            ],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:48:00.826Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "f2dddd83-5197-ef11-a99b-00505691970a",
+            "badgeNumber": "336705",
+            "registrationStatus": 3,
+            "attendeeType": "XO",
+            "firstName": "Zuo",
+            "lastName": "Wang",
+            "emailAddress": "zuowang123@yahoo.com",
+            "company": "EV Photonics",
+            "badgeFirstName": "ZUO",
+            "badgeLastName": "WANG",
+            "badgeCompany": "EV PHOTONICS",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": true,
+            "orderPaidInFull": true,
+            "spieId": 3552019,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:49:56.115Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "513123a7-6497-ef11-a99b-00505691970a",
+            "badgeNumber": "341173",
+            "registrationStatus": 3,
+            "attendeeType": "AT",
+            "firstName": "Zu-Kai",
+            "lastName": "Weng",
+            "emailAddress": "zukaiweng@nict.go.jp",
+            "company": "NICT",
+            "badgeFirstName": "ZU-KAI",
+            "badgeLastName": "WENG",
+            "badgeCompany": "NICT",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": false,
+            "spieId": 5055998,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:51:11.353Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "06064f45-6a97-ef11-a99b-00505691970a",
+            "badgeNumber": "342424",
+            "registrationStatus": 3,
+            "attendeeType": "XO",
+            "firstName": "Zufeng",
+            "lastName": "Wang",
+            "emailAddress": "yuwangboston@gmail.com",
+            "company": "YunNan Evergreen Technology",
+            "badgeFirstName": "ZUFENG",
+            "badgeLastName": "WANG",
+            "badgeCompany": "YUNNAN EVERGREEN TECHNOLOGY",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 4463900,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:52:38.289Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "19b3a470-4c97-ef11-a99b-00505691970a",
+            "badgeNumber": "335473",
+            "registrationStatus": 3,
+            "attendeeType": "XR",
+            "firstName": "Zorina",
+            "lastName": "Mercado",
+            "emailAddress": "zorina.mercado@ams-osram.com",
+            "company": "ams-OSRAM AG",
+            "badgeFirstName": "ZORINA",
+            "badgeLastName": "MERCADO",
+            "badgeCompany": "AMS OSRAM",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": true,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 5058259,
+            "exhibitorId": "faa8f87a-30db-ee11-a9a0-00505691c5e1",
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:53:43.152Z"
+          }
+        },
+        {
+          "registration": {
+            "registrationId": "5f133b1f-6097-ef11-a99b-00505691970a",
+            "badgeNumber": "340181",
+            "registrationStatus": 3,
+            "attendeeType": "XO",
+            "firstName": "Zoran",
+            "lastName": "Milanovic",
+            "emailAddress": "zmanmil@aol.com",
+            "company": "Atia Vision Inc",
+            "badgeFirstName": "ZORAN",
+            "badgeLastName": "MILANOVIC",
+            "badgeCompany": "ATIA VISION INC",
+            "badgePrintedDateDisplay": "No",
+            "technicalPass": false,
+            "exhibitRep": false,
+            "confirmationLevel": 100000001,
+            "onSite": false,
+            "orderPaidInFull": true,
+            "spieId": 180995,
+            "memberships": [],
+            "tickets": [],
+            "students": [],
+            "symposium": {
+              "symposiumCode": "PW25",
+              "symposiumId": "6606654e-8589-ee11-a99c-00505691c5e1",
+              "symposiumTitle": "SPIE Photonics West",
+              "logoFileName": "pw.svg"
+            },
+            "isDirty": false,
+            "isSaving": false,
+            "badgePrintedDate": "2024-11-06T17:55:12.883Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "IndividualGetRegistration3",
+      "bodies": [
+        {
+          "registrationId": "ac6108e7-4897-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "ebdd4927-3197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "d27e85de-2497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "6546563f-1d97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "d5521bb7-5497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "f2dddd83-5197-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "513123a7-6497-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "06064f45-6a97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "19b3a470-4c97-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        },
+        {
+          "registrationId": "5f133b1f-6097-ef11-a99b-00505691970a",
+          "badgeNumber": ""
+        }
+      ]
+    }
+  ]
+}
