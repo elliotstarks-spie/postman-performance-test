@@ -22,7 +22,7 @@ Run `npm install` from root directory.
 
 `-r` `--report` _Boolean, Optional (default = false)._ Generate a summary report on completion.
 
-`-d` `--data` \*String, Optional.` Data file to use with collection.
+`-d` `--data` _String, Optional._ Data file to use with collection.
 
 Example usage:
 `node .\app\postman-performance-test.js --file "..\collections\my-collection.json" --users 10 --interval 20 --total 60 --stagger --report --data ".\data\my-data.json"`
