@@ -1,22 +1,28 @@
 # Postman Performance Test
 
 ## Dependencies
-Requires `Node` (only tested with `v20.14.0`)
+
+Requires `Node` (only tested with `v20.14.0`).
 
 ## Setup
-Run `npm install`
+
+Run `npm install` from root directory.
 
 ## Arguments
-`-f` `--file` *String, Required.* Target Postman collection export file.
 
-`-u` `--users` *Integer, Required.* Number of simulated concurrent users.
+`-f` `--file` _String, Required._ Target Postman collection export file.
 
-`-i` `--interval` *Integer, Required.* Time between user requests (in seconds).
+`-u` `--users` _Integer, Required._ Number of simulated concurrent users.
 
-`-t` `--total` *Integer, Required.* Total time to run (in seconds).
+`-i` `--interval` _Integer, Required._ Time between user requests (in seconds).
 
-`-s` `--stagger` *Boolean, Optional (default = false).* Stagger users by a random amount within the `interval`. 
+`-t` `--total` _Integer, Required._ Total time to run (in seconds).
 
+`-s` `--stagger` _Boolean, Optional (default = false)._ Stagger users by a random amount within the `interval`.
+
+`-r` `--report` _Boolean, Optional (default = false)._ Generate a summary report on completion.
+
+`-d` `--data` \*String, Optional.` Data file to use with collection.
 
 Example usage:
-`node .\app\postman-performance-test.js --file "../collections/staff-tools.test.json" --users 10 --interval 20 --total 60 --stagger`
+`node .\app\postman-performance-test.js --file "..\collections\my-collection.json" --users 10 --interval 20 --total 60 --stagger --report --data ".\data\my-data.json"`
